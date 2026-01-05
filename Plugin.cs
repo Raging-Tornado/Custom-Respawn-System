@@ -14,7 +14,7 @@ namespace CustomRespawnSystem
         public static Plugin Instance { get; private set; }
         public override string Name { get; } = "Custom Respawn System";
         public override string Author { get; } = "Raging Tornado";
-        public override Version Version => new Version(1, 0, 0);
+        public override Version Version => new Version(1, 1, 0);
         public override void OnEnabled()
         {
             base.OnEnabled();
