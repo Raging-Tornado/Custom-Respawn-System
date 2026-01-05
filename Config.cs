@@ -10,7 +10,7 @@ namespace CustomRespawnSystem
 
         [Description("Value indicating whether debug messages should be displayed in the console.")]
         public bool Debug { get; set; } = false;
-        [Description("Value indicating whether debug messages should be displayed in the console.")]
+        [Description("Spawn settings")]
         public int MinimumTimeToSpawn { get; set; } = 280;
         public int MaximumTimeToSpawn { get; set; } = 350;
         public bool PriorityMtfRespawn { get; set; } = true;
